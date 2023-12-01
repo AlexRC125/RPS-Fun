@@ -36,7 +36,7 @@ function determineWinner(){
     if (userChoice === "rock" && compChoice === "paper")
     return "computer";
 } 
-    else if (userChoice === "scissor" && compChoice === "paper"){
+    if (userChoice === "scissor" && compChoice === "paper"){
         return "user";
     }
     else if (userChoice === "paper" && compChoice === "scissor"){
